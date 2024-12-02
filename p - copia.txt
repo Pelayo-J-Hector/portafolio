@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+ <title>Video</title>
+
+
+<style>
+
+*{
+     font-family: The munday free version, normal; 
+     text-decoration: none;
+     list-style: none;
+     color: black;
+}
+
+
+body{
+     margin: 0;
+     padding: 0
+     color: #666;
+     background: #D3DCC5; 
+    }
+
+header{
+     display: flex;
+     height: 50px;
+     background-color: #A2B097;
+     align-items: center;
+     padding: 20px;
+   }
+
+h2 {
+     color: #000000;
+     font-family: Chopin Light, normal;
+     font-size:20px;
+     margin-left: 20px;
+     }
+
+
+h3 {
+     color: #000000;
+     font-family: Chopin Light, normal;
+     font-size:20px;
+     margin-left: 20px;
+     }
+
+
+
+.contenido {
+     display: flex;
+     justify-content: space-between:;
+     margin-top: 20px;
+     background-color: #D3DCC5;
+     margin-top: 0;   
+     }
+
+
+.container {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between:;
+     align-items: left;
+     background-color: #A2B097;
+     margin-top: 30px;
+     margin-left: 90px;
+     margin-right: 90px;
+     border-radius: 25px;
+     width: 1000px;
+     }
+
+
+.red-button {
+     text-decoration: none;
+     color: #000;
+     background-color: #90B672;
+     padding: 8px 16px;
+     border-radius: 5px;
+     aspect-ratio: auto;
+     font-size: 15px;
+     transition: background-color 0.3s ease;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 20px;
+     }
+
+
+
+.footer {
+     background-color: #A2B097;
+     text-align: left;
+     padding: 20px;
+     margin-top: 0;
+     }
+
+video {
+ margin-left: 20px;
+ border-radius: 20px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+	<img src="cecy.png" height="50" width="40" >
+	<h3>Videos</h3>
+</header>
+
+
+<div class="contenido">
+
+<br><br>
+
+ <div class="container"><br><br>
+  <video autoplay controls width="450" height="250">
+	  <source src="p.mp4" type="video/mp4">
+  </video>
+  <h2>Video created from 3D modeling in Blender</h2>
+ </div>
+
+
+ <div class="container"><br><br>
+  <video autoplay controls width="450" height="250">
+	  <source src="fox.mp4" type="video/mp4">
+  </video>
+  <h2>Video created from 3D modeling in Blender</h2>
+ </div>
+
+</div>
+
+
+<div class="contenido">
+
+<br><br>
+
+ <div class="container"><br><br>
+  <video autoplay controls width="450" height="250">
+	  <source src="jaz.mp4" type="video/mp4">
+  </video>
+  <h2>Video created from 3D modeling in Blender</h2>
+ </div>
+
+
+ <div class="container"><br><br>
+  <video autoplay controls width="450" height="250">
+	  <source src="pl.mp4" type="video/mp4">
+  </video>
+  <h2>Video created from 3D modeling in Blender</h2>
+ </div>
+
+</div>
+
+
+<div class="contenido">
+
+<br><br>
+
+ <div class="container"><br><br>
+  <video autoplay controls width="450" height="250">
+	  <source src="rr.mp4" type="video/mp4">
+  </video>
+  <h2>Video created from 3D modeling in Blender</h2>
+ </div>
+
+
+ <div class="container"><br><br>
+  <h2>The videos presented on this page were created, modeled and rendered in the Blender application, and are unique creations. Thank you :)</h2>
+ </div>
+
+</div>
+
+
+<div class="contenido">
+      <a class="red-button" href="p2c.html">Homepage</a>
+</div>
+
+	<div class="footer">
+		<p>&copy; 2024 The videos presented on this page were created for educational purposes and belong to Pelayo Jimenez Hector</p>
+	</div> 
+
+</body>
+
+</html>

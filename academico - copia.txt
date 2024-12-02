@@ -1,0 +1,188 @@
+<!DOCTTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Academic</title>
+
+  <style>
+
+*{
+     font-family: The munday free version, normal; 
+     text-decoration: none;
+     list-style: none;
+     color: black;
+}
+
+
+        body{
+             margin: 0;
+             padding: 0
+             color: #000;
+             background-color: #D3DCC5;
+             }
+
+        header{
+             display: flex;
+             height: 50px;
+             background-color: #A2B097;
+             align-items: center;
+             padding: 20px;
+             }
+
+
+        .zoom-effect img {
+             transition: transform 1s ease;
+             }
+    
+        .zoom-effect img:hover {
+             transform: scale(1.03);
+             }
+
+          h1 {
+             color: #000000;
+             font-family: The munday free version, normal;
+             font-size: 18px;
+             margin-left: 23px;
+        }
+
+          h2 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size: 15px;
+             margin-left: 23px;
+             margin-right: 10px;
+        }
+
+
+          h3 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size:20px;
+             margin-left: 20px;
+             margin-right: 10px;
+        }
+
+
+       .contenido {
+           width: 1200px;
+           display: flex;
+           justify-content: space-between:;
+           background-color: #D3DCC5;
+           margin-top: 0; 
+       }
+
+
+       .container {
+           width: 1000px;
+           display: flex;
+           flex-direction: column;
+           margin-top: 35px;
+           background-color: #D3DCC5;
+       }
+
+       .image-container { 
+           flex: 1; 
+           margin: 0 90px;
+           background-color: #A2B097;
+           width: 555px;
+           margin-left: 28px;
+       }
+
+       .image-container img { 
+           width: 500px; 
+           height: 300px;
+           display: flex;
+           color: #90B672;
+           border: 5px solid;
+           border-radius: 25px;
+           margin-left: 23px;
+           margin-top: 20px;
+        }
+
+       .red-button {
+           text-decoration: none;
+           color: #000;
+           background-color: #90B672;
+           padding: 8px 16px;
+           border-radius: 5px;
+           aspect-ratio: auto;
+           font-size: 15px;
+           transition: background-color 0.3s ease;
+           margin-top: 40px;
+           margin-bottom: 20px;
+           margin-left: 20px;
+        }
+
+       .footer {
+           background-color: #A2B097;
+           text-align: left;
+           padding: 20px;
+           margin-top: 0;
+        }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+	<img src="cecy.png" height="50" width="40">
+	<h3>Academic record</h3>
+</header>
+
+<div class="contenido">
+
+<div class="container">
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="cecytem.jpg" height="50" width="40" alt="Image 1"><br>
+     </div>
+   </div>
+
+
+   <div class="image-container"><br>
+       <h1>Student of the College of Scientific and Technological Studies of the State of Mexico, Chimalhuacán 2 campus</h1>
+       <h2>Student of the "digital animation technician" career The Digital Animation Technician career offers the professional skills that allow 
+the student carry out activities aimed at: obtaining and editing photographs, audio and video sequences using electronic equipment and software</h2><br>
+<h2>Create digital designs, produce 2D and 3D animations, create virtual worlds using scripts to represent real-life events, create video games 
+advertising using graphic engines according to the client's needs</h2><br>
+<h2>Having a general average of 10 until the 3rd semester</h2>
+   </div>
+
+
+</div>
+
+<div class="container">
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="felipe.jpeg" alt="Image 1"><br>
+     </div>
+   </div>
+
+   <div class="image-container"><br>
+       <h1>Student graduated from the Felipe Carrillo Puerto 141 Federalized General Secondary School</h1>
+       <h2>Increase in the general average achievement from 8.6 to 9.1. School year 2021 – 2022</h2> <br>
+       <h2>Eleven teachers have completed their master's studies during the 2015-2016, 2016-2017, 2017-2018, 2018-2019, 2019-2020 and 2021-2022 school years</h2><br>
+<h2>The PLANEA results obtained by the students on campus are higher than those achieved by the national average. 2016-2017 and 2018-2019 school year</h2>
+   </div>
+
+</div>
+
+</div>
+
+<div class="contenido">
+<br><br>
+      <a class="red-button" href="p2c.html">Homepage</a>
+<br><br>
+</div>
+
+	<div class="footer">
+		<p>&copy; 2024 The images were created for educational purposes and belong to Pelayo Jimenez Hector</p>
+	</div> 
+
+
+</body>
+</html>

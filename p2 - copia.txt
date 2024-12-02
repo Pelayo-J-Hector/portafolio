@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+ <title>Portfolio</title>
+
+
+<style>
+
+*{
+     font-family: The munday free version, normal; 
+     text-decoration: none;
+     list-style: none;
+     color: black;
+}
+
+
+.nav a {
+color: black;
+}
+
+
+body{
+     margin: 0;
+     padding: 0
+     color: #666;
+     background: #D3DCC5; 
+    }
+
+h1 {
+     color: #000000;
+     font-family: The munday free version, normal;
+     font-size: 15px;
+     }
+
+
+
+header{
+     display: flex;
+     height: 70px;
+     background-color: #A2B097;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     font-family: The munday free version, normal;  
+     }
+
+  h2 {
+     font-family: The munday free version, normal;
+     margin-left: 3px; 
+     }
+
+
+.general{
+     display: flex;     
+     margin: auto;
+     margin-top: 50px;
+     width: 1200px;
+     height: 1060px;
+     background-color: #99B293;
+     border-radius: 5px; 
+    }
+
+.navegacion2{
+     width: 300px;
+     height: 1060px;
+     background-color: #5E7658;
+    }
+
+.navegacion{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 500px;
+     height: 400px;
+     background-color: #99B293;
+     border-radius: 5px;
+    }
+
+.container {
+      display: flex;
+      justify-content: space-between:;
+      align-items: center;
+      }
+
+.image-container { 
+      flex: 2; 
+      margin: 0 10px;
+      color: #123456;  
+      }
+
+.image-container img { 
+       width: 80%; 
+       height: auto;
+       display: block;
+       color: #123456;
+       border-radius: 5px;
+       margin-top: 30px;
+       margin-left: 25px;
+       }
+
+.green-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #90B672;
+    padding: 5px 18px;
+    border-radius: 5px;
+    aspect-ratio: auto;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.red-button {
+    text-decoration: none;
+    color: #000;
+    background-color: #C5E3AD;
+    padding: 8px 16px;
+    border-radius: 5px;
+    aspect-ratio: auto;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+
+.footer {
+ background-color: #A2B097;
+ text-align: left;
+ padding: 20px;
+ margin-top: 50px;
+}
+
+.botones {
+ display: flex;
+ flex-direction: column;
+ height: 550px;
+ width: 350px;
+ border: 3px solid #7C9768;
+ color: #000000;
+ background-color: #5E7658;
+ padding: 20px;
+ text-align: center;
+ margin: 0 50px;
+ margin-top: 40px;
+ align-items: center;
+ border-radius: 10px;
+}
+
+img {
+ border-radius: 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+	<img src="cecy.png" height="65" width="55" >
+	<h2>Pelayo Jimenez Hector</h2>
+<nav>
+       <ul>
+       <li><a href="https://wa.link/cpqzya">WhatsApp</a></li>
+       <li><a href="https://www.instagram.com/hectorpelayoj?igsh=bTA4YmU2eTdha3Jt">Instagram</a></li>
+       <li><a href="https://www.facebook.com/hector.pelayojimenez?mibextid=ZbWKwL">Facebook</a></li>
+       </ul>
+</nav>
+</header>
+
+
+<div class="general">
+
+ <div class="navegacion2">
+
+    <div class="container">
+     <div class="image-container">
+      <img src="foto.jpg" alt="Image 1">
+      <br>
+      <h1>Pelayo Jimenez Hector</h1>
+      <h1>Age: 16 years<h/1>
+      <h1>Gender: Male<h/1>
+      <h1>Mexican nationality<h/1>
+      <h1>Birth: 09-23-07<h/1>
+      <h1>Marital status: Single<h/1>
+      <br><br><br>
+      <a class="red-button" href="p2c.html">Spanish</a>
+     </div>
+   </div>
+ </div>
+
+
+<div class="navegacion">
+
+<div class="botones">
+      <img src="as.png" height="180" width="120" >
+      <br>
+      <a class="green-button" href="modelados 3dc.html">3D Modeling</a>
+</div>
+
+<div class="botones">
+      <img src="d2.jpg" height="180" width="250">
+      <br>
+      <a class="green-button" href="dsc.html">Drawings</a>
+</div>
+
+<div class="botones">
+      <img src="esc.png" height="180" width="210">
+      <br>
+      <a class="green-button" href="p3c.html">Illustrations</a>
+</div>
+
+</div>
+
+
+<div class="navegacion">
+
+<div class="botones">
+      <img src="planet.gif" height="180" width="280">
+      <br>
+      <a class="green-button" href="pc.html">Videos</a>
+</div>
+
+<div class="botones">
+      <img src="cecy.png" height="180" width="150">
+      <br>
+      <a class="green-button" href="pec.html">Academic</a>
+</div>
+
+<div class="botones">
+      <img src="blender.png" height="180" width="150">
+      <br>
+      <a class="green-button" href="pa.html">Apps</a>
+</div>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+	<div class="footer">
+		<p>&copy; 2024 The information and content of this page belong to Hector Pelayo Jimenez</p>
+	</div> 
+
+
+
+</body>
+
+<script>
+     function Aviso(){
+                 alert("Celular: 55-17-70-07-00");
+         }
+
+</script> 
+
+
+<html>

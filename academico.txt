@@ -1,0 +1,188 @@
+<!DOCTTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Historial académico</title>
+
+  <style>
+
+*{
+     font-family: The munday free version, normal; 
+     text-decoration: none;
+     list-style: none;
+     color: black;
+}
+
+
+        body{
+             margin: 0;
+             padding: 0
+             color: #000;
+             background-color: #D3DCC5;
+             }
+
+        header{
+             display: flex;
+             height: 50px;
+             background-color: #A2B097;
+             align-items: center;
+             padding: 20px;
+             }
+
+
+        .zoom-effect img {
+             transition: transform 1s ease;
+             }
+    
+        .zoom-effect img:hover {
+             transform: scale(1.03);
+             }
+
+          h1 {
+             color: #000000;
+             font-family: The munday free version, normal;
+             font-size: 18px;
+             margin-left: 23px;
+        }
+
+          h2 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size: 15px;
+             margin-left: 23px;
+             margin-right: 10px;
+        }
+
+
+          h3 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size:20px;
+             margin-left: 20px;
+             margin-right: 10px;
+        }
+
+
+       .contenido {
+           width: 1200px;
+           display: flex;
+           justify-content: space-between:;
+           background-color: #D3DCC5;
+           margin-top: 0; 
+       }
+
+
+       .container {
+           width: 1000px;
+           display: flex;
+           flex-direction: column;
+           margin-top: 35px;
+           background-color: #D3DCC5;
+       }
+
+       .image-container { 
+           flex: 1; 
+           margin: 0 90px;
+           background-color: #A2B097;
+           width: 555px;
+           margin-left: 28px;
+       }
+
+       .image-container img { 
+           width: 500px; 
+           height: 300px;
+           display: flex;
+           color: #90B672;
+           border: 5px solid;
+           border-radius: 25px;
+           margin-left: 23px;
+           margin-top: 20px;
+        }
+
+       .red-button {
+           text-decoration: none;
+           color: #000;
+           background-color: #90B672;
+           padding: 8px 16px;
+           border-radius: 5px;
+           aspect-ratio: auto;
+           font-size: 15px;
+           transition: background-color 0.3s ease;
+           margin-top: 40px;
+           margin-bottom: 20px;
+           margin-left: 20px;
+        }
+
+       .footer {
+           background-color: #A2B097;
+           text-align: left;
+           padding: 20px;
+           margin-top: 0;
+        }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+	<img src="cecy.png" height="50" width="40">
+	<h3>Historial académico</h3>
+</header>
+
+<div class="contenido">
+
+<div class="container">
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="cecytem.jpg" height="50" width="40" alt="Image 1"><br>
+     </div>
+   </div>
+
+
+   <div class="image-container"><br>
+       <h1>Estudiante del Colegio de Estudios Científicos y Tecnológicos del Estado de México plantel Chimalhuacán 2</h1>
+       <h2>Estudiante de la carrera "técnico en animación digital"  La carrera de Técnico en Animación Digital ofrece las competencias profesionales que permiten 
+al estudiante realizar actividades dirigidas a: obtener y editar fotografías, secuencias de audio y video mediante equipo electrónico y software</h2><br>
+<h2>Crear diseños digitales, producir animaciones en 2D y 3D, crear mundos virtuales empleando guiones para representar hechos de la vida real, crear videojuegos 
+publicitarios utilizando motores gráficos según las necesidades del cliente</h2><br>
+<h2>Teniendo un promedio general de 10 hasta el 3er semestre</h2>
+   </div>
+
+
+</div>
+
+<div class="container">
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="felipe.jpeg" alt="Image 1"><br>
+     </div>
+   </div>
+
+   <div class="image-container"><br>
+       <h1>Alumno egresado de la Escuela Secundaria General Federalizada Felipe Carrillo Puerto 141</h1>
+       <h2>Aumento del promedio general de aprovechamiento de 8.6 a 9.1. Ciclo escolar 2021 – 2022</h2> <br>
+       <h2>Once docentes han terminado sus estudios de maestría durante los ciclos escolares 2015-2016, 2016-2017, 2017-2018, 2018 – 2019, 2019-2020 y 2021-2022</h2><br>
+<h2>Los resultados de PLANEA obtenidos por los alumnos del plantel, son mayores a los alcanzados por la media nacional. Ciclo escolar 2016-2017 y 2018-2019</h2>
+   </div>
+
+</div>
+
+</div>
+
+<div class="contenido">
+<br><br>
+      <a class="red-button" href="p2.html">Pagina principal</a>
+<br><br>
+</div>
+
+	<div class="footer">
+		<p>&copy; 2024 Las imágenes fueron creadas con fines educativos y son pertenecientes a Pelayo Jimenez Hector</p>
+	</div> 
+
+
+</body>
+</html>

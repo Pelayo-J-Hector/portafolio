@@ -1,0 +1,215 @@
+<!DOCTTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Modelados 3D</title>
+
+<style>
+*{
+     font-family: The munday free version, normal; 
+     text-decoration: none;
+     list-style: none;
+     color: black;
+}
+
+
+        body{
+             margin: 0;
+             padding: 0
+             background-color: #D3DCC5;
+             background-size: cover;
+             }
+
+        header{
+             display: flex;
+             height: 50px;
+             background-color: #A2B097;
+             align-items: center;
+             padding: 20px;
+             }
+
+
+        .zoom-effect img {
+             transition: transform 1s ease;
+             }
+    
+        .zoom-effect img:hover {
+             transform: scale(1.08);
+             }
+
+          h1 {
+             color: #000000;
+             font-family: The munday free version, normal;
+             font-size:30px;
+        }
+
+          h2 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size:20px;
+        }
+
+
+          h3 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size:20px;
+             margin-left: 20px;
+        }
+
+
+       .contenido {
+           display: flex;
+           margin-top: 20px;
+           background-color: #D3DCC5;
+           margin-top: 0;   
+       }
+
+
+       .container {
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between:;
+           align-items: center;
+           background-color: #D3DCC5;
+           margin-top: 0;
+       }
+
+       .container2 {
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between:;
+           align-items: left;
+           background-color: #D3DCC5;
+           margin-top: 0;   
+       }
+
+
+       .image-container {  
+           margin-left: 80px;
+           background-color: #A2B097;
+           width: 500px;
+           padding: 20px;
+           margin-top: 50px;
+           align-items: center;
+           border-radius: 25px;
+       }
+
+       .image-container img { 
+           width: 50%; 
+           height: auto;
+           display: flex;
+           color: #5E7658;
+           border: 5px solid;
+           border-radius: 25px;
+           margin-left: 10px;
+        }
+
+
+       .red-button {
+           text-decoration: none;
+           color: #000;
+           background-color: #90B672;
+           padding: 8px 16px;
+           border-radius: 5px;
+           aspect-ratio: auto;
+           font-size: 15px;
+           transition: background-color 0.3s ease;
+           margin-top: 50px;
+           margin-bottom: 20px;
+           margin-left: 20px;
+        }
+
+       .footer {
+           background-color: #A2B097;
+           text-align: left;
+           padding: 20px;
+           margin-top: 0;
+        }
+
+
+
+</style>
+</head>
+
+<body>
+
+<header>
+	<img src="cecy.png" height="50" width="40">
+	<h3>Modelados 3D</h3>
+</header>
+
+
+<div class="contenido">
+
+<div class="container2">
+ 
+  <div class="image-container"><br>
+   <div class="zoom-effect">
+     <img src="aj.png" alt="Image 1">
+     <h1>Ajolote 3d</h1>
+     <h2>Este modelado fue realizado y renderizado en Blender</h2>
+    </div>
+   </div>
+
+  <div class="image-container"><br>
+   <div class="zoom-effect">
+     <img src="arm.png" alt="Image 1">
+     <h1>Arma 3d</h1>
+     <h2>Este modelado fue realizado y renderizado en Blender</h2>
+    </div>
+   </div>
+
+
+   <div class="image-container">
+     <div class="zoom-effect">
+     <img src="arm2.png" alt="Image 1">
+     <h1>Arma 3d</h1>
+     <h2>Este modelado fue realizado y renderizado en Blender</h2>
+     </div>
+   </div>
+
+</div>
+
+<div class="container">
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="fox.png" alt="Image 1">
+     <h1>Logo de fox en 3d</h1>
+     <h2>Este modelado fue realizado y renderizado en Blender</h2>
+     </div>
+   </div>
+
+   <div class="image-container">
+     <div class="zoom-effect">
+     <img src="R2.png" alt="Image 1">
+     <h1>Muñeca 3d</h1>
+     <h2>Este modelado fue realizado y renderizado en Cinema 4D</h2>
+     </div>
+   </div>
+
+   <div class="image-container">
+     <h1>Informacion</h1>
+     <h2>Los renderizados que aquí se muestras fueron hechos en las aplicaciones de Blender y Cinema 4D, se realizaron con fines educativos, evitando así el lucro y la venta de estos mismos, para realizar algunos de estos se tomo como inspiración algunos otros trabajos (no fue plagio) Gracias :)</h2>
+   </div>
+
+
+</div>
+
+</div>
+
+<div class="contenido">
+      <a class="red-button" href="p2.html">Pagina principal</a>
+</div>
+
+	<div class="footer">
+		<p>&copy; 2024 Las imágenes y modelados fueron creados con fines educativos y son pertenecientes a Pelayo Jimenez Hector</p>
+	</div> 
+
+
+
+</body>
+
+
+</html>

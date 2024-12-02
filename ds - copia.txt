@@ -1,0 +1,211 @@
+<!DOCTTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Hand created drawings</title>
+
+<style>
+
+*{
+     font-family: The munday free version, normal; 
+     text-decoration: none;
+     list-style: none;
+     color: black;
+}
+
+
+        body{
+             margin: 0;
+             padding: 0
+             color: #000;
+             background-color: #D3DCC5;
+             }
+
+        header{
+             display: flex;
+             height: 50px;
+             background-color: #A2B097;
+             align-items: center;
+             padding: 20px;
+             }
+
+
+        .zoom-effect img {
+             transition: transform 1s ease;
+             }
+    
+        .zoom-effect img:hover {
+             transform: scale(1.8);
+             }
+
+          h1 {
+             color: #000000;
+             font-family: The munday free version, normal;
+             font-size:30px;
+             margin-left: 5px;
+        }
+
+          h2 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size: 15px;
+             margin-left: 20px;
+             margin-right: 20px;
+             margin-top: 60px;
+        }
+
+
+          h3 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size:20px;
+             margin-left: 20px;
+        }
+
+
+       .contenido {
+           justify-content: space-between:;
+           margin-top: 20px;
+           background-color: #D3DCC5;
+           margin-top: 0; 
+       }
+
+
+       .container {
+           display: flex;
+           justify-content: space-between:;
+           align-items: center;
+           margin-top: 35px;
+           background-color: #D3DCC5;
+       }
+
+       .image-container { 
+           flex: 1; 
+           width: 1500px;
+           height: 420px;
+           margin: 0 85px;
+           background-color: #99B293;
+           align-items: center;
+           border: 3px solid #7C9768;
+           border-radius: 15px;
+       }
+
+       .image-container img { 
+           width: 80%; 
+           height: auto;
+           display: flex;
+           border: 5px solid;
+           border-radius: 25px;
+           margin-top: 20px;
+           margin-left: 20px;
+        }
+
+
+
+       .red-button {
+           text-decoration: none;
+           color: #000;
+           background-color: #90B672;
+           padding: 8px 16px;
+           border-radius: 5px;
+           aspect-ratio: auto;
+           font-size: 15px;
+           transition: background-color 0.3s ease;
+           margin-top: 40px;
+           margin-bottom: 20px;
+           margin-left: 20px;
+        }
+
+       .footer {
+           background-color: #A2B097;
+           text-align: left;
+           padding: 20px;
+           margin-top: 0;
+        }
+
+
+
+</style>
+</head>
+
+<body>
+
+<header>
+	<img src="cecy.png" height="50" width="40">
+	<h3>Hand created drawings</h3>
+</header>
+
+<div class="container">
+ 
+  <div class="image-container">
+   <div class="zoom-effect">
+     <img src="d1.jpg" alt="Image 1">
+     <h1>Payasa</h1>
+    </div>
+   </div>
+
+  <div class="image-container"><br>
+   <div class="zoom-effect">
+     <img src="d2.jpg" alt="Image 1"><br><br><br>
+     <h1>Corazon de payaso</h1>
+    </div>
+   </div>
+
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="d3.jpg" alt="Image 1"><br>
+     <h1>Angel posando</h1>
+     </div>
+   </div>
+
+</div>
+
+<div class="container">
+
+
+   <div class="image-container">
+     <div class="zoom-effect">
+     <img src="d4.jpg" alt="Image 1">
+     <h1>Angel</h1>
+     </div>
+   </div>
+
+   <div class="image-container"><br><br>
+     <div class="zoom-effect">
+     <img src="d5.jpg" alt="Image 1"><br><br>
+     <h1>Angel de guerra</h1>
+     </div>
+   </div>
+
+   <div class="image-container">
+     <div class="zoom-effect">
+     <img src="d6.jpg" alt="Image 1"><br>
+     <h1>La justicia</h1>
+     </div>
+   </div>
+
+   </div>
+
+
+</div>
+
+
+<div class="contenido">
+
+<h2>The drawings shown on this page were made for educational purposes and as personal art, these drawings are imitations and/or own creations, they were not created for profit or other purposes, only the idea of ​​one author was taken and another was created similar for your understanding Thank you :) (credits and thanks to whom it may apply) </h2>
+<br><br>
+      <a class="red-button" href="p2c.html">Homepage</a>
+<br><br>
+</div>
+
+	<div class="footer">
+		<p>&copy; 2024 The drawings shown on the page belong to Pelayo Jimenez Hector who took ideas from other authors hoping that it will not be considered plagiarism</p>
+	</div> 
+
+
+
+</body>
+
+
+</html>

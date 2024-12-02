@@ -1,0 +1,224 @@
+<!DOCTTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<title>Apps</title>
+
+  <style>
+
+*{
+     font-family: The munday free version, normal; 
+     text-decoration: none;
+     list-style: none;
+     color: black;
+}
+
+
+        body{
+             margin: 0;
+             padding: 0
+             color: #000;
+             background-color: #D3DCC5;
+             }
+
+        header{
+             display: flex;
+             height: 50px;
+             background-color: #A2B097;
+             align-items: center;
+             padding: 20px;
+             }
+
+
+        .zoom-effect img {
+             transition: transform 1s ease;
+             }
+    
+        .zoom-effect img:hover {
+             transform: scale(1.03);
+             }
+
+          h1 {
+             color: #000000;
+             font-family: The munday free version, normal;
+             font-size:30px;
+             margin-left: 25px;
+             }
+
+          h2 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size: 20px;
+             margin-left: 20px;
+             margin-right: 20px;
+             margin-top: 70px;
+             }
+
+
+          h3 {
+             color: #000000;
+             font-family: Chopin Light, normal;
+             font-size:20px;
+             margin-left: 20px;
+             }
+
+       .contenido {
+           justify-content: space-between:;
+           margin-top: 20px;
+           background-color: #D3DCC5;
+           margin-top: 0; 
+           }
+
+       .container {
+           display: flex;
+           justify-content: space-between:;
+           align-items: center;
+           margin-top: 35px;
+           background-color: #D3DCC5;
+           }
+
+
+       .image-container { 
+           flex: 1; 
+           width: 300; 
+           height: 400;
+           margin: 0 70px;
+           background-color: #99B293;
+           border-radius: 10px;
+           }
+
+       .image-container img { 
+           width: 80%; 
+           height: auto;
+           display: block;
+           margin-left: 25px;
+           }
+
+       .red-button {
+           text-decoration: none;
+           color: #000;
+           background-color: #90B672;
+           padding: 8px 16px;
+           border-radius: 5px;
+           aspect-ratio: auto;
+           font-size: 15px;
+           transition: background-color 0.3s ease;
+           margin-top: 40px;
+           margin-bottom: 20px;
+           margin-left: 20px;
+        }
+
+       .footer {
+           background-color: #A2B097;
+           text-align: left;
+           padding: 20px;
+           margin-top: 0;
+        }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+	<img src="cecy.png" height="50" width="40">
+	<h3>Apps</h3>
+</header>
+
+
+<div class="container">
+
+   <div class="image-container">
+     <div class="zoom-effect">
+     <img src="blender.png" alt="Image 1">
+     <h1>Blender</h1>
+     </div>
+   </div>
+
+   <div class="image-container"><br><br><br>
+     <div class="zoom-effect">
+     <img src="audacity.png" alt="Image 1"><br><br><br>
+     <h1>Audacity</h1>
+     </div>
+   </div>
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="shotcut.png" alt="Image 1"><br>
+     <h1>Shotcut</h1>
+     </div>
+   </div>
+</div>
+
+<div class="container">
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="gimp.png" alt="Image 1"><br>
+     <h1>Gimp</h1>
+     </div>
+   </div>
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="inkscape.png" alt="Image 1"><br>
+     <h1>Inkscape</h1>
+     </div>
+   </div>
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="flash.png" alt="Image 1"><br>
+     <h1>Macromedia Flash</h1>
+     </div>
+   </div>
+
+
+</div>
+
+<div class="container">
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="ilustrator.png" alt="Image 1"><br>
+     <h1>Illustrator</h1>
+     </div>
+   </div>
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="cinema.png" alt="Image 1"><br>
+     <h1>Cinema 4d</h1>
+     </div>
+   </div>
+
+   <div class="image-container"><br>
+     <div class="zoom-effect">
+     <img src="photo.png" alt="Image 1"><br>
+     <h1>PhotoShop</h1>
+     </div>
+   </div>
+
+</div>
+
+<div class="contenido">
+
+<h2>These are some of the applications that I have handled throughout my preparation as a student, I must say that I do not handle each and every one 100% but I am willing to do it. Thank you :)</h2>
+<br><br>
+      <a class="red-button" href="p2c.html">Homepage</a>
+<br><br>
+</div>
+
+	<div class="footer">
+		<p>&copy; 2024 The logos shown are used only to refer to the original apps</p>
+	</div> 
+
+
+
+</body>
+</html>
+
+
+
